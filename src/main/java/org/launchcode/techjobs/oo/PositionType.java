@@ -43,6 +43,7 @@ public class PositionType {
 
     // Getters and Setters:
 
+
     public int getId() {
         return id;
     }

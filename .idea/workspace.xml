@@ -53,7 +53,31 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/erinstudent/Desktop/Java_Development/java-assignments/techjobs-oo-java-graded-17&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.TestTaskTwo">
+  <component name="RunManager" selected="Gradle.TestTaskThree">
+    <configuration name="TestTaskThree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.launchcode.techjobs.oo.TestTaskThree&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="TestTaskTwo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -104,6 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestTaskThree" />
         <item itemvalue="Gradle.TestTaskTwo" />
         <item itemvalue="Gradle.Tests in 'org.launchcode.techjobs.oo'" />
       </list>
