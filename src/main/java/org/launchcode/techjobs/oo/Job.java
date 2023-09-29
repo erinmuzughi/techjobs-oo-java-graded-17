@@ -32,9 +32,21 @@ public class Job {
     }
 
     public String toString() {
-       String value =
+        String value;
+        if (this.getName() == null || this.getName().isEmpty()){
+            this.setName("Data not available");
+        } if (this.getEmployer().isEmpty()) {
+            this.setEmployer(new Employer("Data not available"));
+        } if (this.getLocation().isEmpty()) {
+            this.setLocation(new Location("Data not available"));
+        } if (this.getPositionType().isEmpty()) {
+            this.setPositionType( new PositionType("Data not available"));
+        } if (this.getCoreCompetency().isEmpty()) {
+            this.setCoreCompetency(new CoreCompetency("Data not available"));
+        }
+       value =
                 "ID: " + this.getId()+"\n" +
-                "Name: " + this.getId() + "\n" +
+                "Name: " + this.getName() + "\n" +
                 "Employer: " + this.getEmployer() + "\n" +
                 "Location: " + this.getLocation() + "\n" +
                 "Position Type: " + this.getPositionType() +"\n" +

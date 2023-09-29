@@ -25,6 +25,10 @@ public class Employer {
         return value;
     }
 
+    public boolean isEmpty() {
+        return this.value == null || this.value.isEmpty();
+    }
+
     @Override
     public boolean equals(Object o) {  // Two objects are equal if they have the same id.
         if (this == o) return true;

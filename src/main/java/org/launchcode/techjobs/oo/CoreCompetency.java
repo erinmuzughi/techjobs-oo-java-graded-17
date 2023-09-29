@@ -25,6 +25,10 @@ public class CoreCompetency {
         return value;
     }
 
+    public boolean isEmpty() {
+        return this.value == null || this.value.isEmpty();
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -53,4 +57,5 @@ public class CoreCompetency {
     public int getId() {
         return id;
     }
+
 }
