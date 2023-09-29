@@ -27,6 +27,7 @@ public class Location extends JobField {
     }
 
     public boolean isEmpty() {
+
         return getValue() == null || getValue().isEmpty();
     }
 
