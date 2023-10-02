@@ -32,5 +32,5 @@ public class Employer extends JobField {
         return getValue() == null || getValue().isEmpty();
     }
 
-    // Getters and Setters:
+    // Getters and Setters: //none because getters and setters are in the base class so removed them from here
 }

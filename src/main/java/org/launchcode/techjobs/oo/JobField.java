@@ -1,9 +1,9 @@
 package org.launchcode.techjobs.oo;
 
 public class JobField {
-    private int id;
+    private int id; //every subclass will have an ID
     private static int nextId = 1;
-    private String value;
+    private String value; //every subclass will have a value
 
     public JobField() {
         this.id = nextId;
@@ -15,7 +15,7 @@ public class JobField {
         this.value = value;
     }
 
-    public String toString() {
+    public String toString() { //every subclass has a toString method that will override this one, wondering if this should have been an abstract method for that reason? I didn't set it up as one
         return getValue();
     }
     public String getValue() {

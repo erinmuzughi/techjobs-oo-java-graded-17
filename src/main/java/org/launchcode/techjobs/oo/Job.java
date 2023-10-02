@@ -52,7 +52,7 @@ public class Job {
     }
 
     @Override
-    public boolean equals(Object o) {
+    public boolean equals(Object o) { //two jobs equal if their ID fields match
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Job job = (Job) o;

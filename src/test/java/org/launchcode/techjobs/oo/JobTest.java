@@ -72,7 +72,7 @@ public class JobTest {
 
     }
 
-    @Test
+    @Test //If a field is empty, the method should add, “Data not available” after the label.
     public void testToStringHandlesEmptyField() {
         Job testJob1 = new Job("", new Employer(""), new Location(""),
                 new PositionType(""), new CoreCompetency(""));
@@ -89,7 +89,6 @@ public class JobTest {
                         System.lineSeparator();
 
         assertEquals(expected, newString);
-//If a field is empty, the method should add, “Data not available” after the label.
 
 
 
